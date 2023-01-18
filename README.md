@@ -1,27 +1,25 @@
-# AngularContactMgr
+# Angular-project
+Angular Contact Manager CRUD Application 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+# Steps for Client:
+1. Download the source code
+2. inside application -> type "npm install"
+3. to start the application -> "npm start"
+4. open browser : http://localhost:3000
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Steps for Server:
+1. inside server folder -> type "npm install"
+2. to start the server -> "npm start"
+3. open browser : http://localhost:9000
+Useful links for API's
+GET all contacts : GET -> http://localhost:9000/contacts
 
-## Code scaffolding
+Get a Single contact : GET -> http://localhost:9000/contacts/:id
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Create a contact : POST -> http://localhost:9000/contacts/
 
-## Build
+Update a contact : PUT -> http://localhost:9000/contacts/:id
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+DELETE a contact : DELETE -> http://localhost:9000/contacts/:id
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
